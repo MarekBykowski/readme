@@ -1,5 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =3
-let g:netrw_dirhist_3='/home/marek/simics-projects/my-simics-project-1/modules/callee'
-let g:netrw_dirhist_2='/home/marek/Downloads/FastModels_11-18-016_Linux64'
-let g:netrw_dirhist_1='/home/marek'
