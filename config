@@ -1,0 +1,118 @@
+Host arm
+	HostName 89.46.86.70
+	User xxbykowm
+	StrictHostKeyChecking no
+	UserKnownHostsFile /dev/null
+Host cx
+	HostName 10.149.227.47
+	User mbykowsx
+	StrictHostKeyChecking no
+	UserKnownHostsFile /dev/null
+Host cx1
+	HostName 10.148.26.39
+	User mbykowsx
+	StrictHostKeyChecking no
+	UserKnownHostsFile /dev/null
+Host cx2
+	HostName 10.148.26.39
+	User mbykowsx
+	StrictHostKeyChecking no
+	UserKnownHostsFile /dev/null
+Host cx3
+	HostName 10.148.26.40
+	User mbykowsx
+	StrictHostKeyChecking no
+	UserKnownHostsFile /dev/null
+Host rp
+	HostName 10.233.182.42
+	#HostName 10.233.183.80
+	User root
+	StrictHostKeyChecking no
+	UserKnownHostsFile /dev/null
+Host wl1
+	#Hostname wilsoncity-1.sn.intel.com
+	Hostname 10.233.182.21
+	User mbykowsx
+	#10.233.182.41
+	#User agilex
+	#Password: Quartus!
+	StrictHostKeyChecking no
+	UserKnownHostsFile /dev/null
+Host wl1t
+	Hostname wilsoncity-1.sn.intel.com
+	User test1
+	#10.233.182.41
+	#User agilex
+	#Password: Quartus!
+	StrictHostKeyChecking no
+	UserKnownHostsFile /dev/null
+Host wl2
+	Hostname 10.233.182.145
+	#Hostname 10.233.182.133
+	#Hostname wilsoncity-2.sn.intel.com
+	User mbykowsx
+	#10.233.182.250
+	#User agilex
+	#Password: Quartus!
+	StrictHostKeyChecking no
+	UserKnownHostsFile /dev/null
+Host spr1
+	Hostname 10.233.182.14
+	User sdroot
+	StrictHostKeyChecking no
+	UserKnownHostsFile /dev/null
+Host spr2
+	Hostname 10.233.182.26
+	User sdroot
+	StrictHostKeyChecking no
+	UserKnownHostsFile /dev/null
+Host emr
+	#Hostname 10.219.129.108
+	#Hostname 10.219.129.111
+	#Hostname 10.219.129.100
+	Hostname 10.219.129.110
+	User mbykowsx
+	#User:pcie Password:password
+	StrictHostKeyChecking no
+	UserKnownHostsFile /dev/null
+Host gnr
+	#Hostname 10.234.185.51
+	#Hostname 10.234.185.78
+	Hostname 10.234.185.156
+	#Hostname 10.234.184.19
+	#Hostname GNR-JF04-5350.jf.intel.com
+	#Hostname GNR-JF04-5350
+	#Hostname GNR-JF04-5350
+	User mbykowsx
+	#User:pcie Password:password
+	StrictHostKeyChecking no
+	UserKnownHostsFile /dev/null
+	#vnc JF04WVAW5350
+Host gnrt
+	#Hostname 10.234.185.51
+	#Hostname 10.234.185.78
+	#Hostname 10.234.185.156
+	Hostname 10.234.184.19
+	#Hostname GNR-JF04-5350.jf.intel.com
+	#Hostname GNR-JF04-5350
+	#Hostname GNR-JF04-5350
+Host gnr2
+	Hostname 10.234.184.220
+	User mbykowsx
+	StrictHostKeyChecking no
+	UserKnownHostsFile /dev/null
+
+Host srf
+	#Hostname 10.3.224.132
+	Hostname 10.3.224.134
+	User mbykowsx
+	#User:root Password:password
+	StrictHostKeyChecking no
+	UserKnownHostsFile /dev/null
+	#VNC: SC09WVAW8055
+Host dy
+	Hostname 127.0.0.1
+	User marek
+	Port 6666
+	StrictHostKeyChecking no
+	UserKnownHostsFile /dev/null
