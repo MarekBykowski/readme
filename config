@@ -75,10 +75,11 @@ Host emr
 	#User:pcie Password:password
 	StrictHostKeyChecking no
 	UserKnownHostsFile /dev/null
-Host gnr
+Host gnr5350
 	#Hostname 10.234.185.51
 	#Hostname 10.234.185.78
-	Hostname 10.234.185.156
+	#Hostname 10.234.185.156
+	Hostname 10.234.185.229
 	#Hostname 10.234.184.19
 	#Hostname GNR-JF04-5350.jf.intel.com
 	#Hostname GNR-JF04-5350
@@ -96,8 +97,9 @@ Host gnrt
 	#Hostname GNR-JF04-5350.jf.intel.com
 	#Hostname GNR-JF04-5350
 	#Hostname GNR-JF04-5350
-Host gnr2
-	Hostname 10.234.184.220
+Host gnr5211
+	#Hostname 10.234.184.220
+	Hostname 10.234.186.86
 	User mbykowsx
 	StrictHostKeyChecking no
 	UserKnownHostsFile /dev/null
