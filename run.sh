@@ -17,3 +17,10 @@ cs_func() {
 }
 alias cs=cs_func
 EOF
+
+# Install tmux plugin manager
+test -d ~/.tmux/plugins/tpm && rm -rf ~/.tmux/plugins/tpm
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+# type this in terminal if tmux is already running
+tmux source ~/.tmux.conf
+echo "Now press 'prefix + I' to install all the plguins listed in ~/.tmux.conf"
